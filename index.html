@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Juego del Ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        
+    </head>
+
+    <body>
+       <div class="menu-inicio">
+            <img src="imagenes/logo.png" class="logo">
+            <button id="iniciar-juego">Iniciar Juego</button>
+            <button id="agregar-palabra">Agregar nueva palabra</button>
+       </div>
+       <div class="nueva-palabra invisible">
+            <img src="imagenes/logo.png" id="logo">
+            <input type="text" placeholder="Ingrese una palabra" id="nuevaPalabra">
+            <h1>⚠ Máx 8 letras</h1>
+            <button id="guardar">Guardar y empezar</button>
+            <button id="cancelar">Cancelar</button>
+
+       </div>
+       <div class="iniciar-juego invisible">
+            <img src="imagenes/logo.png" id="logo1">
+            <canvas id="tablero" height="860px" width="1200px"></canvas>
+
+                <button id="nuevo-juego">Nuevo Juego</button>
+                <button id="desistir">Desistir</button>
+
+
+
+       </div>
+
+
+       <script src="js/sweetalert2.all.min.js"></script>
+        <script src="js/logica.js"></script>
+        
+    <footer>© Copyright 2022 - Desarrollado por Sabrina Aquino</footer>
+        
+    </body>
+
+</html>

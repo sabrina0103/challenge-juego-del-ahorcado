@@ -1,0 +1,289 @@
+
+.menu-inicio, .nueva-palabra, .iniciar-juego{
+    width: 1440px;
+    height: 1024px;
+    background: rgba(65, 201,197, 0.5);
+}
+.logo, #logo, #logo1{
+    position: absolute;
+    height: 48px;
+    width: 31.08px;
+    left: 144px;
+    top: 45px;
+    
+}
+#iniciar-juego{
+   position: absolute;
+    height: 114px;
+    width: 317px;
+    left: 561px;
+    top: 402px;
+    border-radius: 24px;
+    padding: 24px;
+    font-family: 'MV Boli';
+    font-size: 35px;   
+}
+#agregar-palabra{
+    position: absolute;
+    height: 67px;
+    width: 280px;
+    left: 579px;
+    top: 554px;
+    border-radius: 24px;
+
+    font-family: 'MV Boli';
+    font-size: 20px; 
+   }
+.invisible{
+	display: none;
+}
+input{
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+    font-family: 'MV Boli';
+    color: #0A3871;
+    opacity: 0.5; 
+    border-radius: 10px;
+    font-size: 32px;
+
+}
+h1{
+    position: absolute;
+    top:667px;
+    left: 400px;
+    font-family: 'MV Boli';
+    visibility: inherit;
+
+}
+#guardar{
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    left: 376px;
+    top: 701px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'MV Boli';
+    font-size: 25px;
+
+}
+#cancelar{
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    left: 750px;
+    top: 701px;
+    background: #718daf;
+    border-radius: 24px;
+    font-family: 'MV Boli';
+    font-size: 25px;
+
+}
+#nuevo-juego{
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    top:901px;
+    left: 376px;
+    font-family: 'MV Boli';
+    font-size: 25px;
+    text-align: center;
+}
+#desistir{
+    position: absolute;
+    width: 332px;
+    height: 67px;
+    border-radius: 24px;
+    top:901px;
+    left:732px ;
+    background: #E5E5E5;
+    font-family: 'MV Boli';
+    font-size: 25px;
+    text-align: center;
+}
+.my_swal{
+    background: rgba(255, 255,255, 0.2);
+}
+footer{
+    text-align: center;
+    font-family: 'MV Boli';
+    font-style: italic;
+    background: rgba(65, 201,197, 0.5); ;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px)
+{   body{
+        width: auto;
+        height: 100vh;
+        
+    }
+    .menu-inicio, .nueva-palabra, .iniciar-juego{
+        width: inherit;
+        height: 100vh;
+        background: rgba(65, 201,197, 0.5);
+       
+    }
+    .logo, #logo, #logo1{
+        position: absolute;
+        height: 47px;
+        width: 31px;
+        left: 40px;
+        top: 74px;      
+    }
+    #iniciar-juego{
+       position: absolute;
+        height: 105px;
+        width: 317;
+        left: 225px;
+        top: 402px;
+        border-radius: 24px;
+        padding: 24px;
+        font-family: 'MV Boli';
+        font-size: 35px;
+        
+    }
+    #agregar-palabra{
+        position: absolute;
+        height: 50px;
+        width: 256px;
+        left: 250px;
+        top: 554px;
+        border-radius: 18px;
+        font-family: 'MV Boli';
+        font-size: 16px; 
+        text-align: center;
+       }
+     #nuevaPalabra{
+        left: 40px;
+        Width: 299px;
+        height: 48px;
+        top: 240px;
+    }
+    h1{
+        top:883px;
+        left: 40px;
+        font-size: 12px;
+    }
+    #guardar, #nuevo-juego{
+        position: absolute;
+        width: 332px;
+        height: 67px;
+        left: 40px;
+        top: 917px;
+        background: #0A3871;
+        border-radius: 24px;
+        font-family: 'MV Boli';
+        font-size: 25px;
+      
+    
+    }
+    #cancelar, #desistir{
+        position: absolute;
+        width: 332px;
+        height: 67px;
+        left: 396px;
+        top: 917px;
+        background: #718daf;
+        border-radius: 24px;
+        font-family: 'MV Boli';
+        font-size: 25px;
+    }
+    .iniciar-juego{
+        height: 100vh;
+    }
+    #tablero{
+        height: 800px;
+        width: 600px;
+    }
+}
+@media screen and (max-width: 667px) {
+    body{
+        width: auto;
+        height: 100vh;
+        
+    }
+    .menu-inicio, .nueva-palabra, .iniciar-juego{
+        width: inherit;
+        height: 100vh;
+        background: rgba(65, 201,197, 0.5);
+       
+    }
+    .logo, #logo, #logo1{
+        position: absolute;
+        height: 47px;
+        width: 31px;
+        left: 40px;
+        top: 74px;      
+    }
+    #iniciar-juego{
+       position: absolute;
+        height: 105px;
+        width: 317;
+        left: 29px;
+        top: 281px;
+        border-radius: 24px;
+        padding: 24px;
+        font-family: 'MV Boli';
+        font-size: 16px;
+        
+    }
+    #agregar-palabra{
+        position: absolute;
+        height: 50px;
+        width: 256px;
+        left: 59px;
+        top: 402px;
+        border-radius: 18px;
+        font-family: 'MV Boli';
+        font-size: 16px; 
+        text-align: center;
+       }
+     #nuevaPalabra{
+        left: 16px;
+        Width: 343px;
+        height: 48px;
+        top: 152px;
+    }
+    h1{
+        top:451px;
+        left: 40px;
+        font-size: 12px;
+    }
+    #guardar, #nuevo-juego{
+        position: absolute;
+        width: 343px;
+        height: 67px;
+        left: 16px;
+        top: 485px;
+        background: #0A3871;
+        border-radius: 24px;
+        font-family: 'MV Boli';
+        font-size: 25px;
+         
+    }
+    #cancelar, #desistir{
+        position: absolute;
+        width: 343px;
+        height: 67px;
+        left: 16px;
+        top: 576px;
+        background: #718daf;
+        border-radius: 24px;
+        font-family: 'MV Boli';
+        font-size: 25px;
+    }
+    .iniciar-juego{
+        height: 100vh;
+    }
+    #tablero{
+        height: 579px;
+        width: 375px;
+        right: 16px;
+    }
+}
